@@ -14,7 +14,7 @@ final class AreaTest extends TestCase {
     }
 
     public function testIllinoisArea(): void {
-        $this->assertEquals(145978332359.36716, Area::geometry(self::$illinois));
+        $this->assertEquals(145978332359.36716, Area::geometry(self::$illinois), '', 0.1);
     }
 
     public function testWorldArea(): void {
