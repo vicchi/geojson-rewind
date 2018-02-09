@@ -1,0 +1,22 @@
+{
+    "name": "vicchi/geojson-rewind",
+    "description": "PHP helper classes to enforce RFC7946 polygon winding order in GeoJSON",
+    "type": "library",
+    "keywords": ["php", "geojson", "polygon", "winding order"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Gary Gale",
+            "email": "gary@vicchi.org"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vicchi\\GeoJson\\": "src"
+        }
+    }
+}
