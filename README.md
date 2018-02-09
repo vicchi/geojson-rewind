@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vicchi/geojson-rewind.svg?branch=master)](https://travis-ci.org/vicchi/geojson-rewind)
+
 # geojson-rewind
 
 A set of PHP helper classes to assist in generating GeoJSON geometries that are
